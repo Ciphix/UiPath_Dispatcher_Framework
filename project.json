@@ -1,0 +1,32 @@
+{
+  "name": "Ciphix_Dispatcher_Framework",
+  "description": "Reusable Dispatcher Framework for adding retrieved data to an Orchestrator Queue ",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Cognitive.Activities": "[2.1.6863.31992]",
+    "UiPath.Excel.Activities": "[2.4.6884.25683]",
+    "UiPath.IntelligentOCR.Activities": "[1.1.6863.32845]",
+    "UiPath.Mail.Activities": "[1.2.6863.29868]",
+    "UiPath.PDF.Activities": "[1.2.6863.34697]",
+    "UiPath.System.Activities": "[18.4.1]",
+    "UiPath.Terminal.Activities": "[1.2.6863.33681]",
+    "UiPath.UIAutomation.Activities": "[18.4.2]",
+    "UiPath.WebAPI.Activities": "[1.2.6863.33980]",
+    "UiPath.Word.Activities": "[1.2.6863.34260]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "18.2",
+  "projectVersion": "1.0.6906.25294",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  }
+}
